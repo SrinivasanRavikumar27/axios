@@ -2,11 +2,11 @@ import { React,useState,useEffect } from 'react';
 import '../src/App.css';
 import {Link,BrowserRouter as Router, Routes,Route} from 'react-router-dom';
 import axios from 'axios';
-import ListUsers from '../components/ListUsers';
-import AddUsers from '../components/AddUsers';
-import Dashboard from '../components/Dashboard';
-import EditUsers from '../components/EditUsers';
-import DeleteUsers from '../components/DeleteUsers';
+import ListUsers from '../src/components/ListUsers';
+import AddUsers from '../src/components/AddUsers';
+import Dashboard from '../src/components/Dashboard';
+import EditUsers from '../src/components/EditUsers';
+import DeleteUsers from '../src/components/DeleteUsers';
 
 function App() {
 
