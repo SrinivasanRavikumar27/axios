@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
-import "../src/styles/addUsers.css";
+import "../styles/addUsers.css";
 
 function AddUsers(users) {
   // create navigate
